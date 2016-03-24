@@ -21,10 +21,10 @@ https://mac.cartodb.com/api/v2/sql?q=select * from barcelona_trees where esp_cou
 
 Or get geojson data:
 
-´´´
+```javascript
 var myURL = https://mac.cartodb.com/api/v2/sql?format=GeoJSON&q=select * from barcelona_trees where esp_count < 2
 
 $.getJSON(myURL, function(mygeojson) {
     console.log(mygeojson);
 });
-´´´
+```
